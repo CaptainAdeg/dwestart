@@ -250,6 +250,7 @@ body {
   z-index: 1;
   object-fit: cover;
   height: 100%;
+  filter: brightness(160%);
 }
 .first-block .container {
   z-index: 3;
