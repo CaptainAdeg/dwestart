@@ -117,11 +117,11 @@ $phone1wp = '79161352444';
 		</div>
 
 		<div class="w100 first-block">
-			<video id="video-bg" autoplay="" loop="" muted="" poster="video/Cloud_Surf.jpg">
+			<!--<video id="video-bg" autoplay="" loop="" muted="" poster="video/Cloud_Surf.jpg">
         <source src="video/Cloud_Surf.webm" type="video/webm">
         <source src="video/Cloud_Surf.mp4" type="video/mp4">
         <source src="video/Cloud_Surf.ogv" type="video/ogv">
-      </video>
+      </video>-->
 			<div class="container">
 				<h1>
 					<?=$language['page_h1']; ?>
