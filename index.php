@@ -146,8 +146,6 @@ $phone1wp = '79161352444';
 							<a href="/account" class="btn" target="_self"><?=$language['main-btn1']; ?></a>
 							<a href="#modal_question"  class="v1 fancybox"><?=$language['main-btn2']; ?></a>
 							<form action="http://home.courierexe.ru/290/tracking">
-								<input type="text" class="v1" name="orderno">
-								<input type="submit" name="singlebutton" class="v1" value="submit">
 							</form>
 						</div>
 					</div>
@@ -823,11 +821,6 @@ $phone1wp = '79161352444';
 		<script type="text/javascript" src="js/js.js"></script>
 		<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
 
-		<!-- BEGIN JIVOSITE CODE {literal} -->
-		<script type='text/javascript'>
-		(function(){ var widget_id = 'wJSTvSIOyn';var d=document;var w=window;function l(){
-		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-		<!-- {/literal} END JIVOSITE CODE -->
 	</body>
 
 	</html>
