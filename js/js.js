@@ -231,12 +231,12 @@ $(document).ready(function(){
 	
 	
 	var cities = [
-	{"id":1, "a1":"3,3",	"a2":"0,6",	"a3":"5,4",	"a4":"5,3",	"a5":"5,2"},
+	{"id":1, "a1":"1.2",	"a2":"1.2",	"a3":"3",	"a4":"1.2",	"a5":"1.2"},
 	{"id":2, "a1":"3,3",	"a2":"0,7",	"a3":"5,5",	"a4":"5,4",	"a5":"5,3"},
 	{"id":3, "a1":"4,7",	"a2":"0,8",	"a3":"6,1",	"a4":"6,0",	"a5":"5,9"},
 	{"id":4, "a1":"3,4",	"a2":"0,7",	"a3":"5,6",	"a4":"5,5",	"a5":"5,4"},
 	{"id":5, "a1":"3,4",	"a2":"0,7",	"a3":"5,6",	"a4":"5,5",	"a5":"5,4"},
-	{"id":6, "a1":"3,4",	"a2":"0,7",	"a3":"5,6",	"a4":"5,5",	"a5":"5,4"},
+	{"id":6, "a1":"1.2",	"a2":"0,7",	"a3":"5,6",	"a4":"5,5",	"a5":"5,4"},
 	{"id":7, "a1":"6,4",	"a2":"0,8",	"a3":"6,3",	"a4":"6,2",	"a5":"6,0"},
 	{"id":8, "a1":"3,4",	"a2":"0,7",	"a3":"5,6",	"a4":"5,5",	"a5":"5,4"},
 	{"id":9, "a1":"3,4",	"a2":"0,7",	"a3":"5,6",	"a4":"5,5",	"a5":"5,4"},
@@ -414,21 +414,117 @@ $(document).ready(function(){
 					var fth = five + Math.ceil(15-5)*a3;
 					var thee = fth + Math.ceil(30-15)*a4;
 					
-					if (v === 0.1) {
-						res = a1  * curs;	
-					} else if (v > 0.1 && v < 5) {
-						res = (a1 + (v-0.1)/0.1*a2) * curs;
-					}	else if (v == 5) {
-						res = five * curs;
-					} else if (v > 5 && v < 15.1) {
-						res = (five + Math.ceil(v-5)*a3) * curs;
-					} else if (v > 15 && v < 30.1) {
-						res = (fth + Math.ceil(v-15)*a4) * curs;
-					} else if (v > 30) {
-						res = (thee + Math.ceil(v-30)*a5) * curs;
-					} else {
+					/*
+					if (v < 5.5) {
+						res = a1  * curs + 3;	
+					} else if (v < 11) {
+						res = a1 * curs * v + 5;
+					}	else if (v >= 11 && v < 21) {
+						res = a1 * curs * v + 8;
+					} else if (v >= 21) {
+						res = a1 * curs * v + 10;
+					}  else {
+						res = 0;
+					}*/
+					if (v < 5.5) {
+						res = v * 9.5 + 3.62;
+					}
+					 else if (v <= 6) {
+						res = v * 9.5 + 4.62;
+					}
+					else if (v <= 6) {
+						res = v * 9.5 + 5.62;
+					}
+					else if (v <= 6.5) {
+						res = v * 9.5 + 6.62;
+					}
+					else if (v <= 7) {
+						res = v * 9.5 + 7.62;
+					}
+					else if (v <= 7.5) {
+						res = v * 9.5 + 8.62;
+					}
+					else if (v <= 8) {
+						res = v * 9.5 + 9.62;
+					}
+					else if (v <= 8.5) {
+						res = v * 9.5 + 10.62;
+					}
+					else if (v <= 9) {
+						res = v * 9.5 + 11.62;
+					}
+					else if (v <= 9.5) {
+						res = v * 9.5 + 12.62;
+					}
+					else if (v <= 10) {
+						res = v * 9.5 + 13.62;
+					}
+					else if (v <= 11) {
+						res = v * 9.5 + 14.62;
+					}
+					else if (v <= 12) {
+						res = v * 9.5 + 15.62;
+					}
+					else if (v <= 13) {
+						res = v * 9.5 + 16.62;
+					}
+					else if (v <= 14) {
+						res = v * 9.5 + 17.62;
+					}
+					else if (v <= 15) {
+						res = v * 9.5 + 18.62;
+					}
+					else if (v <= 16) {
+						res = v * 9.5 + 19.62;
+					}
+					else if (v <= 17) {
+						res = v * 9.5 + 20.62;
+					}
+					else if (v <= 18) {
+						res = v * 9.5 + 21.62;
+					}
+					else if (v <= 19) {
+						res = v * 9.5 + 22.62;
+					}
+					else if (v <= 20) {
+						res = v * 9.5 + 23.62;
+					}
+					else if (v <= 21) { 
+						res = v * 9.5 + 24.62;
+					}
+					else if (v <= 22) {
+						res = v * 9.5 + 25.62;
+					}
+					else if (v <= 23) {
+						res = v * 9.5 + 26.62;
+					}
+					else if (v <= 24) {
+						res = v * 9.5 + 27.62;
+					}
+					else if (v <= 25) {
+						res = v * 9.5 + 28.62;
+					}
+					else if (v <= 26) {
+						res = v * 9.5 + 29.62;
+					}
+					else if (v <= 27) {
+						res = v * 9.5 + 30.62;
+					}
+					else if (v <= 28) {
+						res = v * 9.5 + 31.62;
+					}
+					else if (v <= 29) {
+						res = v * 9.5 + 32.62;
+					}
+					else if (v <= 30) {
+						res = v * 9.5 + 33.62;
+					}
+					else {
 						res = 0;
 					}
+
+
+
 					res = Math.ceil((res)*100)/100;
 					$('#result1').html(calctext + ': <b>'+res+' $.</b>');
 		} else if ($('.adr').val() === 'ru') {
@@ -444,10 +540,10 @@ $(document).ready(function(){
 					var fth = five + Math.ceil(15-5)*a3;
 					var thee = fth + Math.ceil(30-15)*a4;
 					
-					if (v === 0.1) {
+					/*if (v === 0.1) {
 						res = a1  * curs;	
 					} else if (v > 0.1 && v < 5.1) {
-						res = (a1 + (v-0.1)/0.1*a2) * curs;
+						res = (a1 + (v-0.1) / 0.1 * a2) * curs;
 					} else if (v > 5 && v < 15.1) {
 						res = (five + Math.ceil(v-5)*a3) * curs;
 					} else if (v > 15 && v < 30.1) {
@@ -456,7 +552,20 @@ $(document).ready(function(){
 						res = (thee + Math.ceil(v-30)*a5) * curs;
 					} else {
 						res = 0;
+					}*/
+					if (v < 5.5) {
+						res = v * 12 + 3;
+					} else if (v >= 5.5 && v < 11) {
+						res = v * 12 + 5;
+					} else if (v >= 11 && v < 21) {
+						res = v * 12 + 8;
+					} else if (v >=21) {
+						res = v * 12 + 10;
+					} else {
+						res = 0;
 					}
+					
+
 					res = Math.ceil((res)*100)/100;
 					$('#result1').html(calctext + ': <b>'+res+' $.</b>');
 					
