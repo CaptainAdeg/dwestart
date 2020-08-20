@@ -426,99 +426,100 @@ $(document).ready(function(){
 					}  else {
 						res = 0;
 					}*/
-					if (v < 5.5) {
-						res = v * 9.5 + 3.62;
+
+
+					if (v <= 5) {
+						res = v * 7.3 + 3.7;
+					}else if (v > 5) {
+						for(var i = 1; i < v - 4; i++) {
+							res = v * 7.3 + 3.7;
+							res += i * 0.7;
+						}
 					}
-					 else if (v <= 6) {
-						res = v * 9.5 + 4.62;
-					}
-					else if (v <= 6) {
-						res = v * 9.5 + 5.62;
-					}
-					else if (v <= 6.5) {
-						res = v * 9.5 + 6.62;
+					/*else if (v <= 6) {
+						res = v * 7.3 + 3.7 + 0.7 * 1;
 					}
 					else if (v <= 7) {
-						res = v * 9.5 + 7.62;
-					}
-					else if (v <= 7.5) {
-						res = v * 9.5 + 8.62;
+						res = v * 7.3 + 3.7 + 0.7 * 2;
 					}
 					else if (v <= 8) {
-						res = v * 9.5 + 9.62;
-					}
-					else if (v <= 8.5) {
-						res = v * 9.5 + 10.62;
+						res = v * 7.3 + 3.7 + 0.7 * 3;
 					}
 					else if (v <= 9) {
-						res = v * 9.5 + 11.62;
-					}
-					else if (v <= 9.5) {
-						res = v * 9.5 + 12.62;
+						res = v * 7.3 + 3.7 + 0.7 * 4;
 					}
 					else if (v <= 10) {
-						res = v * 9.5 + 13.62;
+						res = v * 7.3 + 3.7 + 0.7 * 5;
 					}
 					else if (v <= 11) {
-						res = v * 9.5 + 14.62;
+						res = v * 7.3 + 3.7 + 0.7 * 6;
 					}
 					else if (v <= 12) {
-						res = v * 9.5 + 15.62;
+						res = v * 7.3 + 3.7 + 0.7 * 7;
 					}
 					else if (v <= 13) {
-						res = v * 9.5 + 16.62;
+						res = v * 7.3 + 3.7 + 0.7 * 8;
 					}
-					else if (v <= 14) {
-						res = v * 9.5 + 17.62;
-					}
-					else if (v <= 15) {
-						res = v * 9.5 + 18.62;
-					}
-					else if (v <= 16) {
-						res = v * 9.5 + 19.62;
-					}
-					else if (v <= 17) {
-						res = v * 9.5 + 20.62;
-					}
-					else if (v <= 18) {
-						res = v * 9.5 + 21.62;
-					}
-					else if (v <= 19) {
-						res = v * 9.5 + 22.62;
-					}
-					else if (v <= 20) {
-						res = v * 9.5 + 23.62;
-					}
-					else if (v <= 21) { 
-						res = v * 9.5 + 24.62;
-					}
-					else if (v <= 22) {
-						res = v * 9.5 + 25.62;
-					}
-					else if (v <= 23) {
-						res = v * 9.5 + 26.62;
-					}
-					else if (v <= 24) {
-						res = v * 9.5 + 27.62;
+					else if (v <= 13) {
+						res = v * 7.3 + 3.7 + 0.7 * 9;
+					}else if (v <= 14) {
+						res = v * 7.3 + 3.7 + 0.7 * 10;
+					}else if (v <= 15) {
+						res = v * 7.3 + 3.7 + 0.7 * 11;
+					}else if (v <= 16) {
+						res = v * 7.3 + 3.7 + 0.7 * 12;
+					}else if (v <= 17) {
+						res = v * 7.3 + 3.7 + 0.7 * 13;
+					}else if (v <= 18) {
+						res = v * 7.3 + 3.7 + 0.7 * 14;
+					}else if (v <= 19) {
+						res = v * 7.3 + 3.7 + 0.7 * 15;
+					}else if (v <= 20) {
+						res = v * 7.3 + 3.7 + 0.7 * 16;
+					}else if (v <= 21) {
+						res = v * 7.3 + 3.7 + 0.7 * 17;
+					}else if (v <= 22) {
+						res = v * 7.3 + 3.7 + 0.7 * 18;
+					}else if (v <= 23) {
+						res = v * 7.3 + 3.7 + 0.7 * 19;
+					}else if (v <= 24) {
+						res = v * 7.3 + 3.7 + 0.7 * 20;
 					}
 					else if (v <= 25) {
-						res = v * 9.5 + 28.62;
-					}
-					else if (v <= 26) {
-						res = v * 9.5 + 29.62;
-					}
-					else if (v <= 27) {
-						res = v * 9.5 + 30.62;
-					}
-					else if (v <= 28) {
-						res = v * 9.5 + 31.62;
-					}
-					else if (v <= 29) {
-						res = v * 9.5 + 32.62;
-					}
-					else if (v <= 30) {
-						res = v * 9.5 + 33.62;
-					}
+						res = v * 7.3 + 3.7 + 0.7 * 21;
+					}else if (v <= 26) {
+						res = v * 7.3 + 3.7 + 0.7 * 22;
+					}else if (v <= 27) {
+						res = v * 7.3 + 3.7 + 0.7 * 23;
+					}else if (v <= 28) {
+						res = v * 7.3 + 3.7 + 0.7 * 24;
+					}else if (v <= 29) {
+						res = v * 7.3 + 3.7 + 0.7 * 25;
+					}else if (v <= 30) {
+						res = v * 7.3 + 3.7 + 0.7 * 26;
+					}else if (v <= 31) {
+						res = v * 7.3 + 3.7 + 0.7 * 27;
+					}else if (v <= 31) {
+						res = v * 7.3 + 3.7 + 0.7 * 28;
+					}else if (v <= 32) {
+						res = v * 7.3 + 3.7 + 0.7 * 29;
+					}else if (v <= 33) {
+						res = v * 7.3 + 3.7 + 0.7 * 30;
+					}else if (v <= 34) {
+						res = v * 7.3 + 3.7 + 0.7 * 31;
+					}else if (v <= 35) {
+						res = v * 7.3 + 3.7 + 0.7 * 32;
+					}else if (v <= 36) {
+						res = v * 7.3 + 3.7 + 0.7 * 33;
+					}else if (v <= 37) {
+						res = v * 7.3 + 3.7 + 0.7 * 34;
+					}else if (v <= 38) {
+						res = v * 7.3 + 3.7 + 0.7 * 35;
+					}else if (v <= 39) {
+						res = v * 7.3 + 3.7 + 0.7 * 36;
+					}else if (v <= 40) {
+						res = v * 7.3 + 3.7 + 0.7 * 37;
+					}*/
 					else {
 						res = 0;
 					}
@@ -554,14 +555,16 @@ $(document).ready(function(){
 						res = 0;
 					}*/
 					if (v < 5.5) {
-						res = v * 12 + 3;
-					} else if (v >= 5.5 && v < 11) {
-						res = v * 12 + 5;
-					} else if (v >= 11 && v < 21) {
-						res = v * 12 + 8;
-					} else if (v >=21) {
-						res = v * 12 + 10;
-					} else {
+						res = v * 7.3 + 2.8;
+					} if (v <= 5) {
+						res = v * 7.3 + 2.8;
+					}else if (v > 5) {
+						for(var i = 1; i < v - 4; i++) {
+							res = v * 7.3 + 2.8;
+							res += i * 0.7;
+						}
+					}
+					else {
 						res = 0;
 					}
 					
