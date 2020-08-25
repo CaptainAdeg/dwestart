@@ -143,7 +143,7 @@ $phone1wp = '79161352444';
 							</div>
 						</div>
 						<div class="btns">
-							<a href="/account" class="btn" target="_self"><?=$language['main-btn1']; ?></a>
+							<!--<a href="/account" class="btn" target="_self"><?=$language['main-btn1']; ?></a>-->
 							<a href="#modal_question"  class="v1 fancybox"><?=$language['main-btn2']; ?></a>
 							<form action="http://home.courierexe.ru/290/tracking">
 							</form>
@@ -695,7 +695,7 @@ $phone1wp = '79161352444';
 			<h2>
 				<?=$language['form_header']; ?>
 			</h2>
-			<form action="" method="post">
+			<form action="sendmail.php" method="post">
 				<input type="text" class="name" name="name" value="<?=$language['form_name']; ?>"><br>
 				<input type="tel" name="tel" class="tel" value="<?=$language['form_phone']; ?>"><br>
 				<input type="mail" name="email" class="email" value="<?=$language['form_mail']; ?>"><br>
