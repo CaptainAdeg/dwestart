@@ -107,11 +107,11 @@ $phone1wp = '79161352444';
 							<?=$language['menu7']; ?>
 						</a>
 					</li>
-					<li>
+					<!--<li>
 						<a href="/account">
 							<b><?=$language['menu8']; ?></b>
 						</a>
-					</li>
+					</li>-->
 				</ul>
 			</div>
 		</div>
@@ -638,7 +638,7 @@ $phone1wp = '79161352444';
 									<?=$language['mail']; ?>
 								</div>
 							</div>
-							<div class="r"><a href='mailto:delivery@dealwd.com'>delivery@dealwd.com</a></div>
+							<div class="r"><a href='mailto:info@dw.express'>info@dw.express</a></div>
 						</div>
 						<div class="item">
 							<div class="l">

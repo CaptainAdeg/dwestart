@@ -427,9 +427,6 @@ $(document).ready(function(){
 					else {
 						res = 0;
 					}
-
-
-
 					res = Math.ceil((res)*100)/100;
 					$('#result1').html(calctext + ': <b>'+res+' $.</b>');
 		} else if ($('.adr').val() === 'ru') {
@@ -445,19 +442,7 @@ $(document).ready(function(){
 					var fth = five + Math.ceil(15-5)*a3;
 					var thee = fth + Math.ceil(30-15)*a4;
 					
-					/*if (v === 0.1) {
-						res = a1  * curs;	
-					} else if (v > 0.1 && v < 5.1) {
-						res = (a1 + (v-0.1) / 0.1 * a2) * curs;
-					} else if (v > 5 && v < 15.1) {
-						res = (five + Math.ceil(v-5)*a3) * curs;
-					} else if (v > 15 && v < 30.1) {
-						res = (fth + Math.ceil(v-15)*a4) * curs;
-					} else if (v > 30) {
-						res = (thee + Math.ceil(v-30)*a5) * curs;
-					} else {
-						res = 0;
-					}*/
+					
 					if (v < 5.5) {
 						res = v * 7.3 + 2.8;
 					} if (v <= 5) {
