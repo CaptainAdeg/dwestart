@@ -638,7 +638,7 @@ $phone1wp = '79161352444';
 									<?=$language['mail']; ?>
 								</div>
 							</div>
-							<div class="r"><a href='mailto:info@dw.express'>info@dw.express</a></div>
+							<div class="r"><a href='mailto:support@dwexpress.company'>support@dwexpress.company</a></div>
 						</div>
 						<div class="item">
 							<div class="l">
@@ -647,7 +647,7 @@ $phone1wp = '79161352444';
 									<?=$language['site']; ?>
 								</div>
 							</div>
-							<div class="r"><a href='https://dw.express'>https://dw.express</a></div>
+							<div class="r"><a href='https://dwexpress.company'>https://dwexpress.company</a></div>
 						</div>
 					</div>
 				</div>
@@ -663,6 +663,43 @@ $phone1wp = '79161352444';
 					</p>
 
 					<div class="qr">
+					</div>
+
+
+					<style>
+						.icons-logo {
+							width: 40vw;
+							
+						}
+						.icons-logo a{
+							
+    						position: fixed;
+    						
+						}
+						.telegram {
+							display: block;
+							background-image: url('telegram.png');
+							background-size: cover;
+							height: 40px;
+    						bottom: 10vh;
+    						width: 40px;
+    						right: 16vh;
+    						color: transparent;
+						}
+						.whatsapp {
+							display: block;
+							background-image: url('whatsapp.png');
+							background-size: cover;
+							height: 40px;
+    						bottom: 10vh;
+    						width: 40px;
+    						right: 3vh;
+    						color: transparent;
+						}
+					</style>
+					<div class="icons-logo">
+						<a href="https://tlgg.ru/87754842777" class="telegram"></a>
+						<a href="https://wa.me/87754842777" class="whatsapp"></a>	
 					</div>
           <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(49373905, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/49373905" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 				</div>
